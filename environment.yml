@@ -1,0 +1,8 @@
+# conda env create -f environment.yml
+name: pandas-playground
+dependencies:
+  - python=3.12
+  - bottleneck
+  - numexpr
+  - pandas
+  - jupyterlab
